@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 5px red;
+}
+
+main {
+    background-color: red;
+}
+
+.menu {
+    align-items: center;
+    list-style: none;
+    background-image: url("/img/maxresdefault.jpg");
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    padding-left: 8px;
+}
+
+.escudoInternacional {
+    width: 55px;
+    height: 55px;
+}
+
+h1 {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 22px;
+}
+
+.menu li a:hover {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.sobre {
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-image: url("../img/interJogadores.jpg");
+    background-size: cover;
+}
+
+.jogadoresInter {
+    width: 100%;
+    height: 680px;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 210px;
+    text-align: center;
+    padding: 70px;
+    text-shadow: 10px 5px 2px red;
+}
+
+.sobreClube {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSobreClube {
+    margin-top: 150px;
+    display: block;
+    background-color: white;
+    padding: 0 20px;
+}
+
+h3 {
+    color: red;
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.textoSobre {
+    align-items: center;
+    width: 1310px;
+    height: 391px;
+    text-align: center;
+    margin: 50px 0px 0px 100px;
+    text-align: justify;
+    background-color: white;
+}
+
+.textoSobre p {
+    font-size: 28px;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    color: red;
+    padding: 10px 20px;
+}
+
+.mensagem {
+    height: 100vh;
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundoForm {
+    width: 1100px;
+    height: 630px;
+    border-radius: 2%;
+    background-image: radial-gradient(circle at 9.42% 26.57%, #ff8600 0, #ff7000 12.5%, #ff5700 25%, 
+    #ff3900 37.5%, #ff0000 50%, #ef0016 62.5%, #e00021 75%, #d20029 87.5%, #c50030 100%);
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloFormMensagem {
+    text-align: center;
+    width: 1100px;
+}
+
+h4 {
+    font-size: 55px;
+    letter-spacing: 0.3px;
+    font-weight: normal;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+::placeholder {
+    color: red;
+    font-size: 22px;
+}
+
+input {
+    padding: 30px 30px;
+}
+
+#name {
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: red;
+    margin: 40px 0px 20px 0px;
+}
+
+#email {
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#text {
+    border-radius: 5px;
+    font-size: 22px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+textarea {
+    max-width: 500px;
+    max-height: 150px;
+    width: 500px;
+    min-height: 60px;
+    min-width: 300px;
+    padding: 10px 30px;
+    font-size: 19px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+textarea:focus, input:focus, select:focus, button:focus {
+    box-shadow: 0px 0px 0px 0px;
+    border: 0 none;
+    outline: 0;
+    font-size: 22px;
+}
+
+#botao {
+    width: 500px;
+    height: 52px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: red;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+#botao:hover {
+    background-color: rgb(252, 196, 196);
+    transition: 0.5s ease;
+}
+
+
+
